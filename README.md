@@ -1,11 +1,11 @@
 Codefights solutions
 ============================
-I'm collecting my https://codefights.com/ solutions in this repo in golang
+In this repo I'm collecting my https://codefights.com/ solutions written in Go
 
-Purpose is to train the language
+It might help to somebody looking for the solution or it might improve my knowledge when I recieve a feedback ;)
 
-If you spot something what should be improved, let me know ;)
-
+### Codefights solutions in other languages
+- PHP: https://github.com/tomor/codefights-php
 
 ## TODO
-- create notes howto setup idea project and GVM so that this works and can be started
+- create notes howto setup idea project and GVM so that it works and can be started
