@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestAddTwoDigits(t *testing.T) {
+func TestAddTwoDigitsString(t *testing.T) {
 	var tests = []struct {
 		n        int // input
 		expected int // expected result
@@ -15,9 +15,9 @@ func TestAddTwoDigits(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		actual := AddTwoDigits(tt.n)
+		actual := AddTwoDigitsString(tt.n)
 		if actual != tt.expected {
-			t.Errorf("AddTwoDigits(%d): expected %d, actual %d", tt.n, tt.expected, actual)
+			t.Errorf("AddTwoDigitsString(%d): expected %d, actual %d", tt.n, tt.expected, actual)
 		}
 	}
 }
