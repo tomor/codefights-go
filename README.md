@@ -2,7 +2,7 @@ Codefights solutions
 ============================
 In this repo I'm collecting my https://codefights.com/ solutions written in Go
 
-It might help to somebody looking for the solution or it might improve my knowledge when I recieve a feedback ;)
+It might help to somebody looking for the solution or it might improve my knowledge when I receive a feedback ;)
 
 ### Codefights solutions in other languages
 - PHP: https://github.com/tomor/codefights-php
