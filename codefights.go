@@ -9,4 +9,5 @@ func main() {
 	fmt.Println(introgates.AddTwoDigits(42))
 	fmt.Println(introgates.AddTwoDigitsString(42))
 	fmt.Println(introgates.LargestNumber(3))
+	fmt.Println(introgates.Candies(3, 10))
 }

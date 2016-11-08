@@ -15,7 +15,7 @@ addTwoDigits(n) = 11.
 
 Input/Output
 
-[time limit] 4000ms (php)
+[time limit] 4000ms (go)
 [input] integer n
 
 A positive two-digit integer.
