@@ -30,9 +30,9 @@ The sum of the first and second digits of the input number.
 
 func AddTwoDigitsString(n int) int {
 	var result = 0
-	numarr := strings.Split(strconv.Itoa(n), "")
+	numAsArray := strings.Split(strconv.Itoa(n), "")
 
-	for _, element := range numarr {
+	for _, element := range numAsArray {
 		digit, _ := strconv.Atoi(element)
 		result += digit
 	}

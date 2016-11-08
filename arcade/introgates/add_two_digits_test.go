@@ -19,5 +19,10 @@ func TestAddTwoDigits(t *testing.T) {
 		if actual != tt.expected {
 			t.Errorf("AddTwoDigits(%d): expected %d, actual %d", tt.n, tt.expected, actual)
 		}
+
+		actualStr := AddTwoDigitsString(tt.n)
+		if actualStr != tt.expected {
+			t.Errorf("AddTwoDigitsString(%d): expected %d, actual %d", tt.n, tt.expected, actualStr)
+		}
 	}
 }
